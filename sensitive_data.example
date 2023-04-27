@@ -1,0 +1,17 @@
+TEMPLATE_ID="1000"
+
+CODENAME="jammy"
+RELEASE="22.04"
+
+PROXMOX_HOST="pve01"
+
+SSH_PUB_KEY="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQ user@mymail.com"
+CIUSER="user"
+
+CINAMESERVER="10.10.10.1"
+CISEARCHDOMAIN="mydomain.local"
+
+# Doesn't work with HASH
+CIPASSWORD='pass'
+
+DISK_SIZE="16G"
